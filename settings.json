@@ -1,0 +1,107 @@
+{
+  // my settings
+  "workbench.iconTheme": "vscode-icons",
+
+  // "files.autoSave": "afterDelay",
+
+  // "files.insertFinalNewline": true,
+
+  // "files.trimTrailingWhitespace": true,
+
+  // "editor.tabSize": 2,
+
+  "editor.insertSpaces": true,
+
+  // "editor.renderWhitespace": "boundary",
+
+  "editor.detectIndentation": true,
+
+  "diffEditor.ignoreTrimWhitespace": true,
+
+  //for connecture should commit eslint
+  "eslint.options": {
+      "parser": "babel-eslint",
+      "extends": "airbnb",
+      "plugins": [
+          "babel"
+      ],
+      "rules": {
+          "arrow-parens": 0,
+          "babel/generator-star-spacing": 1,
+          "babel/arrow-parens": ["error", "as-needed"],
+          "comma-dangle": [2, "never"],
+          "generator-star-spacing": 0,
+          "max-len": [2, 400, 2, {
+              "ignoreUrls": true,
+              "ignoreComments": false
+          }],
+          "no-underscore-dangle": 0,
+          "react/jsx-handler-names": [2, {
+              "eventHandlerPrefix": "handle",
+              "eventHandlerPropPrefix": "on"
+          }],
+          "react/no-unused-prop-types": 0,
+          "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+      },
+      "ecmaFeatures": {
+          "restParams": true
+      }
+  },
+  // settings by anton
+  "editor.fontSize": 14,
+  "files.autoSave": "onFocusChange",
+  // "editor.fontFamily": "'Fira Code'",
+  // "editor.fontFamily": "Helvetica",
+  "editor.fontFamily": "Source Code Pro",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 22,
+  "editor.rulers": [120],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wrappingIndent": "indent",
+  "editor.cursorBlinking": "smooth",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderIndentGuides": true,
+  "editor.renderLineHighlight": "gutter",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.endWithNewline": true,
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.fontFamily": "'Ubuntu Mono'",
+  "sync.gist": "51c6b97c48a9420ea769f1712ffa2c87",
+  "sync.lastUpload": "2017-02-27T06:41:20.424Z",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastDownload": "2017-01-20T16:21:49.820Z",
+  "sync.version": 262,
+  "sync.showSummary": true,
+  "sync.forceDownload": false,
+  "sync.workspaceSync": false,
+  "sync.anonymousGist": false,
+  "terminal.integrated.fontLigatures": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "underline",
+  "projectManager.openInNewWindow": true,
+  "vsicons.presets.tsOfficial": true,
+  "TodoParser": {
+    "folderExclude": ["node_modules", ".vscode"],
+    "autoDefaultMarkers": true
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.wordWrapColumn": 120,
+  "explorer.enableDragAndDrop": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "window.zoomLevel": 0,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  }
+}
